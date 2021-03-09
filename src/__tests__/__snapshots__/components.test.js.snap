@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Expect to render Card component 1`] = `
+<div
+  className="tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5"
+>
+  <img
+    alt="robots"
+    src="https://robohash.org/undefined?size=200x200"
+  />
+  <div>
+    <h2>
+      Test
+    </h2>
+    <p>
+      abc@some.com
+    </p>
+  </div>
+</div>
+`;
+
+exports[`CardList Expect to render CardList component 1`] = `
+<div>
+  <Card
+    email="john@gmail.com"
+    id={1}
+    key="0"
+    name="John Snow"
+  />
+</div>
+`;
+
+exports[`CounterButton Expect to render CounterButton component 1`] = `
+<button
+  color="red"
+  id="counter"
+  onClick={[Function]}
+>
+  Count: 
+  0
+</button>
+`;
+
+exports[`MainPage.js renders MainPage without crashing 1`] = `
+<div
+  className="tc"
+>
+  <Header />
+  <SearchBox />
+  <Scroll>
+    <ErrorBoundary>
+      <CardList
+        robots={[Function]}
+      />
+    </ErrorBoundary>
+  </Scroll>
+</div>
+`;
